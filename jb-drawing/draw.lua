@@ -11,7 +11,7 @@ function drawCricle3D(posX, posY, posZ, radius, width, color)
       end
 end
 
-function drawRectangle3D(x,y,z,radius)
+function drawSquare3D(x,y,z,radius)
 	dxDrawLine3D(x,y,z,x+radius,y,z,tocolor(255,0,0,255), 1, false)
 	dxDrawLine3D(x,y-radius,z,x,y,z,tocolor(255,0,0,255), 1, false)	
 	dxDrawLine3D(x+radius,y-radius,z,x+radius,y,z,tocolor(255,0,0,255), 1, false)
