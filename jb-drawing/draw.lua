@@ -18,7 +18,7 @@ function drawRectangle3D(x,y,z,radius)
 	dxDrawLine3D(x,y-radius,z,x+radius,y-radius,z,tocolor(255,0,0,255), 1, false)
 end
 
-function create3DOctagon(x,y,z,radius,width)
+function create3DHexogen(x,y,z,radius,width)
 local radius2 = radius/math.sqrt(2)
 point = {}
 for i=1,8 do
