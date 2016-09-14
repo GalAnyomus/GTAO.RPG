@@ -1,0 +1,4 @@
+<meta>
+	<info author="Brzysiek & Jurandovsky" info="3D teksty" version="1.0" /> 
+	<script src="c.lua" type="client" />
+</meta>

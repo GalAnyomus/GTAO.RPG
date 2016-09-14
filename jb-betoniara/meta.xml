@@ -1,0 +1,12 @@
+<meta>
+	<info author="Brzysiek & Jurandovsky" version="1.0" info="Praca betoniarki" />
+	
+	<file src="fonts/f.ttf" type="client" /> 
+	<file src="img/bg.png" type="client" />
+	<script src="gui_c.lua" type="client" />
+	
+	<script src="work_c.lua" type="client" />
+	<script src="work_s.lua" type="server" />
+	
+	<script src="utils_c.lua" type="client" />
+</meta>
